@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" max="32767" attributes="0"/>
+          <Component id="jPanel1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="PnlGrad.KGradientPanel" name="kGradientPanel2">
+          <Properties>
+            <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+            <Property name="kGradientFocus" type="int" value="300"/>
+            <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Calibracion">
+                <Property name="tabTitle" type="java.lang.String" value="Calibracion"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="988" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="jTabbedPane2" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="705" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="jTabbedPane2" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="PnlGrad.KGradientPanel" name="kGradientPanel1">
+                  <Properties>
+                    <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="99" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="kGradientFocus" type="int" value="300"/>
+                    <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="99" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Altas">
+                        <Property name="tabTitle" type="java.lang.String" value="Altas"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="kGradientPanel7" max="32767" attributes="0"/>
+                                  <Component id="kGradientPanel8" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="kGradientPanel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="kGradientPanel8" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="PnlGrad.KGradientPanel" name="kGradientPanel7">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder justification="2" title="REGISTRAR">
+                              <Font PropertyName="font" name="Tahoma" size="18" style="1"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                        <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+                        </Property>
+                        <Property name="kGradientFocus" type="int" value="800"/>
+                        <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="txtPesoEquipo" pref="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel15" max="32767" attributes="0"/>
+                                              <Component id="jcbMantenimiento" pref="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel8" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtMc" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="txtDescription" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel2" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="jLabel4" max="32767" attributes="0"/>
+                                                      <Component id="txtManufactura" min="-2" pref="80" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="txtModelo" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel5" min="-2" pref="100" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="txtSerialNumber" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel6" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="jLabel7" max="32767" attributes="0"/>
+                                                      <Component id="jdcFechaAlta" pref="140" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="jcbEstatus" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel16" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel9" alignment="0" pref="100" max="32767" attributes="0"/>
+                                                      <Component id="txtCostoEquipo" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="txtPOCompra" pref="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel10" pref="130" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jLabel11" max="32767" attributes="0"/>
+                                                              <Component id="txtNumeroPedimento" pref="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jdcFechaCruce" max="32767" attributes="0"/>
+                                                              <Component id="jLabel12" pref="140" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jcbPaisOrigen" pref="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel13" pref="120" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel14" pref="104" max="32767" attributes="0"/>
+                                                              <Component id="txtNumeroAsset" pref="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jLabel17" max="32767" attributes="0"/>
+                                                              <Component id="jcbCalibracionPlanta" pref="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jcbEdificio" pref="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel18" pref="160" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="txtComentarios" max="32767" attributes="0"/>
+                                                              <Component id="jLabel19" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jLabel20" max="32767" attributes="0"/>
+                                              <Component id="jcbCalibracion17025" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="rSMaterialButtonRectangle1" min="-2" pref="152" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="txtDescription" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtMc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                                  <Component id="txtManufactura" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtSerialNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jdcFechaAlta" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="txtCostoEquipo" alignment="3" max="32767" attributes="0"/>
+                                          <Component id="txtPOCompra" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtNumeroPedimento" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jcbMantenimiento" max="32767" attributes="0"/>
+                                      <Component id="jdcFechaCruce" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtNumeroAsset" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="jcbPaisOrigen" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtPesoEquipo" max="32767" attributes="0"/>
+                                      <Component id="jcbEstatus" max="32767" attributes="0"/>
+                                      <Component id="jcbCalibracionPlanta" max="32767" attributes="0"/>
+                                      <Component id="txtComentarios" max="32767" attributes="0"/>
+                                      <Component id="jcbEdificio" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jcbCalibracion17025" min="-2" pref="42" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                          <Component id="rSMaterialButtonRectangle1" min="-2" pref="57" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel1">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="MC"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel2">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Descripcion"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtDescription">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="20"/>
+                            <Property name="toolTipText" type="java.lang.String" value="Intervalo en Dias"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel4">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Manufactura"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtManufactura">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="X"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel5">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Modelo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtModelo">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="XNS"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel6">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Numero de Serie"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtSerialNumber">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="US17202311045"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel7">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Fecha Alta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="com.toedter.calendar.JDateChooser" name="jdcFechaAlta">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel8">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Mantenimiento"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbMantenimiento">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Si"/>
+                                <StringItem index="1" value="No"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="colorFondo" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel9">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Costo Equipo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtCostoEquipo">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="15000"/>
+                            <Property name="toolTipText" type="java.lang.String" value="Ingresar Cantidad en Dolares"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel10">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="PO de Compra"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtPOCompra">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="80112023"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel11">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Numero de Pedimento"/>
+                            <Property name="toolTipText" type="java.lang.String" value=""/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtNumeroPedimento">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="102245240"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel12">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Fecha Cruce"/>
+                          </Properties>
+                        </Component>
+                        <Component class="com.toedter.calendar.JDateChooser" name="jdcFechaCruce">
+                          <Properties>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel13">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Pais Origen"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbPaisOrigen">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="196">
+                                <StringItem index="0" value="Afganistan"/>
+                                <StringItem index="1" value="Albania"/>
+                                <StringItem index="2" value="Alemania"/>
+                                <StringItem index="3" value="Andorra"/>
+                                <StringItem index="4" value="Angola"/>
+                                <StringItem index="5" value="Antigua y Barbuda"/>
+                                <StringItem index="6" value="Arabia Saudita"/>
+                                <StringItem index="7" value="Argelia"/>
+                                <StringItem index="8" value="Argentina"/>
+                                <StringItem index="9" value="Armenia"/>
+                                <StringItem index="10" value="Australia"/>
+                                <StringItem index="11" value="Austria"/>
+                                <StringItem index="12" value="Azerbaiyan"/>
+                                <StringItem index="13" value="Bahamas"/>
+                                <StringItem index="14" value="Bahrein"/>
+                                <StringItem index="15" value="Bangladesh"/>
+                                <StringItem index="16" value="Barbados"/>
+                                <StringItem index="17" value="Belarus"/>
+                                <StringItem index="18" value="Belgica"/>
+                                <StringItem index="19" value="Belice"/>
+                                <StringItem index="20" value="Benin"/>
+                                <StringItem index="21" value="Bhutan"/>
+                                <StringItem index="22" value="Bolivia"/>
+                                <StringItem index="23" value="Bosnia y Herzegovina"/>
+                                <StringItem index="24" value="Botswana"/>
+                                <StringItem index="25" value="Brasil"/>
+                                <StringItem index="26" value="Brunei Darussalam"/>
+                                <StringItem index="27" value="Bulgaria"/>
+                                <StringItem index="28" value="Burkina Faso"/>
+                                <StringItem index="29" value="Burundi"/>
+                                <StringItem index="30" value="Cabo Verde"/>
+                                <StringItem index="31" value="Camboya"/>
+                                <StringItem index="32" value="Camerun"/>
+                                <StringItem index="33" value="Canada"/>
+                                <StringItem index="34" value="Chad"/>
+                                <StringItem index="35" value="Chequia"/>
+                                <StringItem index="36" value="Chile"/>
+                                <StringItem index="37" value="China"/>
+                                <StringItem index="38" value="Chipre"/>
+                                <StringItem index="39" value="Colombia"/>
+                                <StringItem index="40" value="Comoras"/>
+                                <StringItem index="41" value="Congo"/>
+                                <StringItem index="42" value="Costa Rica"/>
+                                <StringItem index="43" value="C&#xf4;te d&#x2019;Ivoire"/>
+                                <StringItem index="44" value="Croacia"/>
+                                <StringItem index="45" value="Cuba"/>
+                                <StringItem index="46" value="Dinamarca"/>
+                                <StringItem index="47" value="Djibouti"/>
+                                <StringItem index="48" value="Dominica"/>
+                                <StringItem index="49" value="Ecuador"/>
+                                <StringItem index="50" value="Egipto"/>
+                                <StringItem index="51" value="El Salvador"/>
+                                <StringItem index="52" value="Emiratos Arabes Unidos"/>
+                                <StringItem index="53" value="Eritrea"/>
+                                <StringItem index="54" value="Eslovaquia"/>
+                                <StringItem index="55" value="Eslovenia"/>
+                                <StringItem index="56" value="Espa&#xf1;a"/>
+                                <StringItem index="57" value="Estados Unidos de America"/>
+                                <StringItem index="58" value="Estonia"/>
+                                <StringItem index="59" value="Eswatini"/>
+                                <StringItem index="60" value="Etiopia"/>
+                                <StringItem index="61" value="Federacion de Rusia"/>
+                                <StringItem index="62" value="Fiji"/>
+                                <StringItem index="63" value="Filipinas"/>
+                                <StringItem index="64" value="Finlandia"/>
+                                <StringItem index="65" value="Francia"/>
+                                <StringItem index="66" value="Gabon"/>
+                                <StringItem index="67" value="Gambia"/>
+                                <StringItem index="68" value="Georgia"/>
+                                <StringItem index="69" value="Ghana"/>
+                                <StringItem index="70" value="Granada"/>
+                                <StringItem index="71" value="Grecia"/>
+                                <StringItem index="72" value="Guatemala"/>
+                                <StringItem index="73" value="Guinea"/>
+                                <StringItem index="74" value="Guinea Ecuatorial"/>
+                                <StringItem index="75" value="Guinea-Bissau"/>
+                                <StringItem index="76" value="Guyana"/>
+                                <StringItem index="77" value="Haiti"/>
+                                <StringItem index="78" value="Honduras"/>
+                                <StringItem index="79" value="Hungria"/>
+                                <StringItem index="80" value="India"/>
+                                <StringItem index="81" value="Indonesia"/>
+                                <StringItem index="82" value="Iran"/>
+                                <StringItem index="83" value="Iraq"/>
+                                <StringItem index="84" value="Irlanda"/>
+                                <StringItem index="85" value="Islandia"/>
+                                <StringItem index="86" value="Islas Cook"/>
+                                <StringItem index="87" value="Islas Marshall"/>
+                                <StringItem index="88" value="Islas Salomon"/>
+                                <StringItem index="89" value="Israel"/>
+                                <StringItem index="90" value="Italia"/>
+                                <StringItem index="91" value="Jamaica"/>
+                                <StringItem index="92" value="Japon"/>
+                                <StringItem index="93" value="Jordania"/>
+                                <StringItem index="94" value="Kazajstan"/>
+                                <StringItem index="95" value="Kenya"/>
+                                <StringItem index="96" value="Kirguistan"/>
+                                <StringItem index="97" value="Kiribati"/>
+                                <StringItem index="98" value="Kuwait"/>
+                                <StringItem index="99" value="Lesotho"/>
+                                <StringItem index="100" value="Letonia"/>
+                                <StringItem index="101" value="Libano"/>
+                                <StringItem index="102" value="Liberia"/>
+                                <StringItem index="103" value="Libia"/>
+                                <StringItem index="104" value="Liechtenstein"/>
+                                <StringItem index="105" value="Lituania"/>
+                                <StringItem index="106" value="Luxemburgo"/>
+                                <StringItem index="107" value="Madagascar"/>
+                                <StringItem index="108" value="Malasia"/>
+                                <StringItem index="109" value="Malawi"/>
+                                <StringItem index="110" value="Maldivas"/>
+                                <StringItem index="111" value="Mali"/>
+                                <StringItem index="112" value="Malta"/>
+                                <StringItem index="113" value="Marruecos"/>
+                                <StringItem index="114" value="Mauricio"/>
+                                <StringItem index="115" value="Mauritania"/>
+                                <StringItem index="116" value="Mexico"/>
+                                <StringItem index="117" value="Micronesia"/>
+                                <StringItem index="118" value="Monaco"/>
+                                <StringItem index="119" value="Mongolia"/>
+                                <StringItem index="120" value="Montenegro"/>
+                                <StringItem index="121" value="Mozambique"/>
+                                <StringItem index="122" value="Myanmar"/>
+                                <StringItem index="123" value="Namibia"/>
+                                <StringItem index="124" value="Nauru"/>
+                                <StringItem index="125" value="Nepal"/>
+                                <StringItem index="126" value="Nicaragua"/>
+                                <StringItem index="127" value="Niger"/>
+                                <StringItem index="128" value="Nigeria"/>
+                                <StringItem index="129" value="Niue"/>
+                                <StringItem index="130" value="Noruega"/>
+                                <StringItem index="131" value="Nueva Zelandia"/>
+                                <StringItem index="132" value="Oman"/>
+                                <StringItem index="133" value="Paises Bajos"/>
+                                <StringItem index="134" value="Pakistan"/>
+                                <StringItem index="135" value="Palau"/>
+                                <StringItem index="136" value="Panama"/>
+                                <StringItem index="137" value="Papua Nueva Guinea"/>
+                                <StringItem index="138" value="Paraguay"/>
+                                <StringItem index="139" value="Peru"/>
+                                <StringItem index="140" value="Polonia"/>
+                                <StringItem index="141" value="Portugal"/>
+                                <StringItem index="142" value="Qatar"/>
+                                <StringItem index="143" value="Reino Unido de Gran Breta&#xf1;a e Irlanda del Norte"/>
+                                <StringItem index="144" value="Republica Arabe Siria"/>
+                                <StringItem index="145" value="Republica Centroafricana"/>
+                                <StringItem index="146" value="Republica de Corea"/>
+                                <StringItem index="147" value="Republica de Macedonia del Norte"/>
+                                <StringItem index="148" value="Republica de Moldova"/>
+                                <StringItem index="149" value="Republica Democratica del Congo"/>
+                                <StringItem index="150" value="Republica Democratica Popular Lao"/>
+                                <StringItem index="151" value="Republica Dominicana"/>
+                                <StringItem index="152" value="Republica Popular Democratica de Corea"/>
+                                <StringItem index="153" value="Republica Unida de Tanzania"/>
+                                <StringItem index="154" value="Rumania"/>
+                                <StringItem index="155" value="Rwanda"/>
+                                <StringItem index="156" value="Saint Kitts y Nevis"/>
+                                <StringItem index="157" value="Samoa"/>
+                                <StringItem index="158" value="San Marino"/>
+                                <StringItem index="159" value="San Vicente y las Granadinas"/>
+                                <StringItem index="160" value="Santa Lucia"/>
+                                <StringItem index="161" value="Santa Sede"/>
+                                <StringItem index="162" value="Santo Tome y Principe"/>
+                                <StringItem index="163" value="Senegal"/>
+                                <StringItem index="164" value="Serbia"/>
+                                <StringItem index="165" value="Seychelles"/>
+                                <StringItem index="166" value="Sierra Leona"/>
+                                <StringItem index="167" value="Singapur"/>
+                                <StringItem index="168" value="Somalia"/>
+                                <StringItem index="169" value="Sri Lanka"/>
+                                <StringItem index="170" value="Sudafrica"/>
+                                <StringItem index="171" value="Sudan"/>
+                                <StringItem index="172" value="Sudan del Sur"/>
+                                <StringItem index="173" value="Suecia"/>
+                                <StringItem index="174" value="Suiza"/>
+                                <StringItem index="175" value="Suriname"/>
+                                <StringItem index="176" value="Tailandia"/>
+                                <StringItem index="177" value="Tayikistan"/>
+                                <StringItem index="178" value="Timor-Leste"/>
+                                <StringItem index="179" value="Togo"/>
+                                <StringItem index="180" value="Tonga"/>
+                                <StringItem index="181" value="Trinidad y&#xa0;Tabago"/>
+                                <StringItem index="182" value="Tunez"/>
+                                <StringItem index="183" value="T&#xfc;rkiye"/>
+                                <StringItem index="184" value="Turkmenistan"/>
+                                <StringItem index="185" value="Tuvalu"/>
+                                <StringItem index="186" value="Ucrania"/>
+                                <StringItem index="187" value="Uganda"/>
+                                <StringItem index="188" value="Uruguay"/>
+                                <StringItem index="189" value="Uzbekistan"/>
+                                <StringItem index="190" value="Vanuatu"/>
+                                <StringItem index="191" value="Venezuela"/>
+                                <StringItem index="192" value="Viet Nam"/>
+                                <StringItem index="193" value="Yemen"/>
+                                <StringItem index="194" value="Zambia"/>
+                                <StringItem index="195" value="Zimbabwe"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel14">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Numero Asset"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtNumeroAsset">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="500"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel15">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Peso Equipo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtPesoEquipo">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="50"/>
+                            <Property name="toolTipText" type="java.lang.String" value="Ingresar peso en KG"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel16">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Estatus"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbEstatus">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Activo"/>
+                                <StringItem index="1" value="Inactivo"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel17">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Calibracion en Planta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbCalibracionPlanta">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Si"/>
+                                <StringItem index="1" value="No"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel18">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Edificio / Planta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbEdificio">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                              <Connection code="new javax.swing.DefaultComboBoxModel(traerLocacion().toArray())" type="code"/>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel19">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Comentarios"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtComentarios">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Usar alcohol isopropilico"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel20">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Requiere Calibracion 17025"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbCalibracion17025">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Si"/>
+                                <StringItem index="1" value="No"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtMc">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="1"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMaterialButtonRectangle" name="rSMaterialButtonRectangle1">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="99" red="33" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Registrar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rSMaterialButtonRectangle1ActionPerformed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="PnlGrad.KGradientPanel" name="kGradientPanel8">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder justification="2" title="REGISTROS">
+                              <Font PropertyName="font" name="Tahoma" size="18" style="1"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                        <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+                        </Property>
+                        <Property name="kGradientFocus" type="int" value="200"/>
+                        <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPane1" alignment="0" pref="265" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTable" name="tblRegistros">
+                              <Properties>
+                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                  <Table columnCount="20" rowCount="4">
+                                    <Column editable="true" title="ID" type="java.lang.Object"/>
+                                    <Column editable="true" title="MC" type="java.lang.Object"/>
+                                    <Column editable="true" title="Descripcion" type="java.lang.Object"/>
+                                    <Column editable="true" title="Manufactura" type="java.lang.Object"/>
+                                    <Column editable="true" title="Modelo" type="java.lang.Object"/>
+                                    <Column editable="true" title="Serie" type="java.lang.Object"/>
+                                    <Column editable="true" title="Fecha Alta" type="java.lang.Object"/>
+                                    <Column editable="true" title="Mantenimiento" type="java.lang.Object"/>
+                                    <Column editable="true" title="Costo Equipo" type="java.lang.Object"/>
+                                    <Column editable="true" title="PO Compra" type="java.lang.Object"/>
+                                    <Column editable="true" title="Numero Pedimento" type="java.lang.Object"/>
+                                    <Column editable="true" title="Fecha Cruce" type="java.lang.Object"/>
+                                    <Column editable="true" title="Pais Origen" type="java.lang.Object"/>
+                                    <Column editable="true" title="Asset" type="java.lang.Object"/>
+                                    <Column editable="true" title="Peso" type="java.lang.Object"/>
+                                    <Column editable="true" title="Estatus" type="java.lang.Object"/>
+                                    <Column editable="true" title="Calibracion Planta" type="java.lang.Object"/>
+                                    <Column editable="true" title="Planta" type="java.lang.Object"/>
+                                    <Column editable="true" title="Comentarios" type="java.lang.Object"/>
+                                    <Column editable="true" title="Calibracion 17025" type="java.lang.Object"/>
+                                  </Table>
+                                </Property>
+                                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                                  <TableColumnModel selectionModel="0">
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                  </TableColumnModel>
+                                </Property>
+                                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="PnlGrad.KGradientPanel" name="kGradientPanel9">
+                  <Properties>
+                    <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="99" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="99" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Busqueda">
+                        <Property name="tabTitle" type="java.lang.String" value="Busqueda"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="kGradientPanel10" max="32767" attributes="0"/>
+                                  <Component id="jPanel2" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel2" pref="295" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="kGradientPanel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="PnlGrad.KGradientPanel" name="kGradientPanel10">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder justification="2" title="Modificar">
+                              <Font PropertyName="font" name="Tahoma" size="18" style="1"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                        <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+                        </Property>
+                        <Property name="kGradientFocus" type="int" value="800"/>
+                        <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="txtPesoEquipo1" alignment="1" pref="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel34" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="jcbMantenimiento1" alignment="1" pref="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel27" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel21" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtMc1" alignment="1" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="txtDescription1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel22" alignment="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="jLabel23" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="txtManufactura1" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="txtModelo1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel24" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="txtSerialNumber1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel25" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="jLabel26" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="jdcFechaAlta1" alignment="0" pref="140" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="jcbEstatus1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel35" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel28" alignment="0" pref="100" max="32767" attributes="0"/>
+                                                      <Component id="txtCostoEquipo1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="txtPOCompra1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel29" alignment="0" pref="130" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jLabel30" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txtNumeroPedimento1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jdcFechaCruce1" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel31" alignment="0" pref="140" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jcbPaisOrigen1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel32" alignment="0" pref="120" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel33" alignment="0" pref="104" max="32767" attributes="0"/>
+                                                              <Component id="txtNumeroAsset1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jLabel36" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="jcbCalibracionPlanta1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="jcbEdificio1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel37" alignment="0" pref="160" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                              <Component id="txtComentarios1" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="jLabel38" alignment="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jLabel39" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jcbCalibracion17026" alignment="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jLabel42" max="32767" attributes="0"/>
+                                              <Component id="txtID1" pref="85" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="rSMaterialButtonRectangle6" min="-2" pref="150" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="rSMaterialButtonRectangle2" min="-2" pref="150" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="txtDescription1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtMc1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                                  <Component id="txtManufactura1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtModelo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtSerialNumber1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jdcFechaAlta1" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="txtCostoEquipo1" alignment="3" max="32767" attributes="0"/>
+                                          <Component id="txtPOCompra1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtNumeroPedimento1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jcbMantenimiento1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jdcFechaCruce1" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="txtNumeroAsset1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="jcbPaisOrigen1" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtPesoEquipo1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jcbEstatus1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jcbCalibracionPlanta1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtComentarios1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jcbEdificio1" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jcbCalibracion17026" pref="42" max="32767" attributes="0"/>
+                                              <Component id="txtID1" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="rSMaterialButtonRectangle2" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                                              <Component id="rSMaterialButtonRectangle6" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel21">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="MC"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel22">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Descripcion"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtDescription1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="20"/>
+                            <Property name="toolTipText" type="java.lang.String" value="Intervalo en Dias"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel23">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Manufactura"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtManufactura1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="X"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel24">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Modelo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtModelo1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="XNS"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel25">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Numero de Serie"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtSerialNumber1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="US17202311045"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel26">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Fecha Alta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="com.toedter.calendar.JDateChooser" name="jdcFechaAlta1">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel27">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Mantenimiento"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbMantenimiento1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Si"/>
+                                <StringItem index="1" value="No"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="colorFondo" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel28">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Costo Equipo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtCostoEquipo1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="15000"/>
+                            <Property name="toolTipText" type="java.lang.String" value="Ingresar Cantidad en Dolares"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel29">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="PO de Compra"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtPOCompra1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="80112023"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel30">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Numero de Pedimento"/>
+                            <Property name="toolTipText" type="java.lang.String" value=""/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtNumeroPedimento1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="102245240"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel31">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Fecha Cruce"/>
+                          </Properties>
+                        </Component>
+                        <Component class="com.toedter.calendar.JDateChooser" name="jdcFechaCruce1">
+                          <Properties>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel32">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Pais Origen"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbPaisOrigen1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="196">
+                                <StringItem index="0" value="Afganistan"/>
+                                <StringItem index="1" value="Albania"/>
+                                <StringItem index="2" value="Alemania"/>
+                                <StringItem index="3" value="Andorra"/>
+                                <StringItem index="4" value="Angola"/>
+                                <StringItem index="5" value="Antigua y Barbuda"/>
+                                <StringItem index="6" value="Arabia Saudita"/>
+                                <StringItem index="7" value="Argelia"/>
+                                <StringItem index="8" value="Argentina"/>
+                                <StringItem index="9" value="Armenia"/>
+                                <StringItem index="10" value="Australia"/>
+                                <StringItem index="11" value="Austria"/>
+                                <StringItem index="12" value="Azerbaiyan"/>
+                                <StringItem index="13" value="Bahamas"/>
+                                <StringItem index="14" value="Bahrein"/>
+                                <StringItem index="15" value="Bangladesh"/>
+                                <StringItem index="16" value="Barbados"/>
+                                <StringItem index="17" value="Belarus"/>
+                                <StringItem index="18" value="Belgica"/>
+                                <StringItem index="19" value="Belice"/>
+                                <StringItem index="20" value="Benin"/>
+                                <StringItem index="21" value="Bhutan"/>
+                                <StringItem index="22" value="Bolivia"/>
+                                <StringItem index="23" value="Bosnia y Herzegovina"/>
+                                <StringItem index="24" value="Botswana"/>
+                                <StringItem index="25" value="Brasil"/>
+                                <StringItem index="26" value="Brunei Darussalam"/>
+                                <StringItem index="27" value="Bulgaria"/>
+                                <StringItem index="28" value="Burkina Faso"/>
+                                <StringItem index="29" value="Burundi"/>
+                                <StringItem index="30" value="Cabo Verde"/>
+                                <StringItem index="31" value="Camboya"/>
+                                <StringItem index="32" value="Camerun"/>
+                                <StringItem index="33" value="Canada"/>
+                                <StringItem index="34" value="Chad"/>
+                                <StringItem index="35" value="Chequia"/>
+                                <StringItem index="36" value="Chile"/>
+                                <StringItem index="37" value="China"/>
+                                <StringItem index="38" value="Chipre"/>
+                                <StringItem index="39" value="Colombia"/>
+                                <StringItem index="40" value="Comoras"/>
+                                <StringItem index="41" value="Congo"/>
+                                <StringItem index="42" value="Costa Rica"/>
+                                <StringItem index="43" value="C&#xf4;te d&#x2019;Ivoire"/>
+                                <StringItem index="44" value="Croacia"/>
+                                <StringItem index="45" value="Cuba"/>
+                                <StringItem index="46" value="Dinamarca"/>
+                                <StringItem index="47" value="Djibouti"/>
+                                <StringItem index="48" value="Dominica"/>
+                                <StringItem index="49" value="Ecuador"/>
+                                <StringItem index="50" value="Egipto"/>
+                                <StringItem index="51" value="El Salvador"/>
+                                <StringItem index="52" value="Emiratos Arabes Unidos"/>
+                                <StringItem index="53" value="Eritrea"/>
+                                <StringItem index="54" value="Eslovaquia"/>
+                                <StringItem index="55" value="Eslovenia"/>
+                                <StringItem index="56" value="Espa&#xf1;a"/>
+                                <StringItem index="57" value="Estados Unidos de America"/>
+                                <StringItem index="58" value="Estonia"/>
+                                <StringItem index="59" value="Eswatini"/>
+                                <StringItem index="60" value="Etiopia"/>
+                                <StringItem index="61" value="Federacion de Rusia"/>
+                                <StringItem index="62" value="Fiji"/>
+                                <StringItem index="63" value="Filipinas"/>
+                                <StringItem index="64" value="Finlandia"/>
+                                <StringItem index="65" value="Francia"/>
+                                <StringItem index="66" value="Gabon"/>
+                                <StringItem index="67" value="Gambia"/>
+                                <StringItem index="68" value="Georgia"/>
+                                <StringItem index="69" value="Ghana"/>
+                                <StringItem index="70" value="Granada"/>
+                                <StringItem index="71" value="Grecia"/>
+                                <StringItem index="72" value="Guatemala"/>
+                                <StringItem index="73" value="Guinea"/>
+                                <StringItem index="74" value="Guinea Ecuatorial"/>
+                                <StringItem index="75" value="Guinea-Bissau"/>
+                                <StringItem index="76" value="Guyana"/>
+                                <StringItem index="77" value="Haiti"/>
+                                <StringItem index="78" value="Honduras"/>
+                                <StringItem index="79" value="Hungria"/>
+                                <StringItem index="80" value="India"/>
+                                <StringItem index="81" value="Indonesia"/>
+                                <StringItem index="82" value="Iran"/>
+                                <StringItem index="83" value="Iraq"/>
+                                <StringItem index="84" value="Irlanda"/>
+                                <StringItem index="85" value="Islandia"/>
+                                <StringItem index="86" value="Islas Cook"/>
+                                <StringItem index="87" value="Islas Marshall"/>
+                                <StringItem index="88" value="Islas Salomon"/>
+                                <StringItem index="89" value="Israel"/>
+                                <StringItem index="90" value="Italia"/>
+                                <StringItem index="91" value="Jamaica"/>
+                                <StringItem index="92" value="Japon"/>
+                                <StringItem index="93" value="Jordania"/>
+                                <StringItem index="94" value="Kazajstan"/>
+                                <StringItem index="95" value="Kenya"/>
+                                <StringItem index="96" value="Kirguistan"/>
+                                <StringItem index="97" value="Kiribati"/>
+                                <StringItem index="98" value="Kuwait"/>
+                                <StringItem index="99" value="Lesotho"/>
+                                <StringItem index="100" value="Letonia"/>
+                                <StringItem index="101" value="Libano"/>
+                                <StringItem index="102" value="Liberia"/>
+                                <StringItem index="103" value="Libia"/>
+                                <StringItem index="104" value="Liechtenstein"/>
+                                <StringItem index="105" value="Lituania"/>
+                                <StringItem index="106" value="Luxemburgo"/>
+                                <StringItem index="107" value="Madagascar"/>
+                                <StringItem index="108" value="Malasia"/>
+                                <StringItem index="109" value="Malawi"/>
+                                <StringItem index="110" value="Maldivas"/>
+                                <StringItem index="111" value="Mali"/>
+                                <StringItem index="112" value="Malta"/>
+                                <StringItem index="113" value="Marruecos"/>
+                                <StringItem index="114" value="Mauricio"/>
+                                <StringItem index="115" value="Mauritania"/>
+                                <StringItem index="116" value="Mexico"/>
+                                <StringItem index="117" value="Micronesia"/>
+                                <StringItem index="118" value="Monaco"/>
+                                <StringItem index="119" value="Mongolia"/>
+                                <StringItem index="120" value="Montenegro"/>
+                                <StringItem index="121" value="Mozambique"/>
+                                <StringItem index="122" value="Myanmar"/>
+                                <StringItem index="123" value="Namibia"/>
+                                <StringItem index="124" value="Nauru"/>
+                                <StringItem index="125" value="Nepal"/>
+                                <StringItem index="126" value="Nicaragua"/>
+                                <StringItem index="127" value="Niger"/>
+                                <StringItem index="128" value="Nigeria"/>
+                                <StringItem index="129" value="Niue"/>
+                                <StringItem index="130" value="Noruega"/>
+                                <StringItem index="131" value="Nueva Zelandia"/>
+                                <StringItem index="132" value="Oman"/>
+                                <StringItem index="133" value="Paises Bajos"/>
+                                <StringItem index="134" value="Pakistan"/>
+                                <StringItem index="135" value="Palau"/>
+                                <StringItem index="136" value="Panama"/>
+                                <StringItem index="137" value="Papua Nueva Guinea"/>
+                                <StringItem index="138" value="Paraguay"/>
+                                <StringItem index="139" value="Peru"/>
+                                <StringItem index="140" value="Polonia"/>
+                                <StringItem index="141" value="Portugal"/>
+                                <StringItem index="142" value="Qatar"/>
+                                <StringItem index="143" value="Reino Unido de Gran Breta&#xf1;a e Irlanda del Norte"/>
+                                <StringItem index="144" value="Republica Arabe Siria"/>
+                                <StringItem index="145" value="Republica Centroafricana"/>
+                                <StringItem index="146" value="Republica de Corea"/>
+                                <StringItem index="147" value="Republica de Macedonia del Norte"/>
+                                <StringItem index="148" value="Republica de Moldova"/>
+                                <StringItem index="149" value="Republica Democratica del Congo"/>
+                                <StringItem index="150" value="Republica Democratica Popular Lao"/>
+                                <StringItem index="151" value="Republica Dominicana"/>
+                                <StringItem index="152" value="Republica Popular Democratica de Corea"/>
+                                <StringItem index="153" value="Republica Unida de Tanzania"/>
+                                <StringItem index="154" value="Rumania"/>
+                                <StringItem index="155" value="Rwanda"/>
+                                <StringItem index="156" value="Saint Kitts y Nevis"/>
+                                <StringItem index="157" value="Samoa"/>
+                                <StringItem index="158" value="San Marino"/>
+                                <StringItem index="159" value="San Vicente y las Granadinas"/>
+                                <StringItem index="160" value="Santa Lucia"/>
+                                <StringItem index="161" value="Santa Sede"/>
+                                <StringItem index="162" value="Santo Tome y Principe"/>
+                                <StringItem index="163" value="Senegal"/>
+                                <StringItem index="164" value="Serbia"/>
+                                <StringItem index="165" value="Seychelles"/>
+                                <StringItem index="166" value="Sierra Leona"/>
+                                <StringItem index="167" value="Singapur"/>
+                                <StringItem index="168" value="Somalia"/>
+                                <StringItem index="169" value="Sri Lanka"/>
+                                <StringItem index="170" value="Sudafrica"/>
+                                <StringItem index="171" value="Sudan"/>
+                                <StringItem index="172" value="Sudan del Sur"/>
+                                <StringItem index="173" value="Suecia"/>
+                                <StringItem index="174" value="Suiza"/>
+                                <StringItem index="175" value="Suriname"/>
+                                <StringItem index="176" value="Tailandia"/>
+                                <StringItem index="177" value="Tayikistan"/>
+                                <StringItem index="178" value="Timor-Leste"/>
+                                <StringItem index="179" value="Togo"/>
+                                <StringItem index="180" value="Tonga"/>
+                                <StringItem index="181" value="Trinidad y&#xa0;Tabago"/>
+                                <StringItem index="182" value="Tunez"/>
+                                <StringItem index="183" value="T&#xfc;rkiye"/>
+                                <StringItem index="184" value="Turkmenistan"/>
+                                <StringItem index="185" value="Tuvalu"/>
+                                <StringItem index="186" value="Ucrania"/>
+                                <StringItem index="187" value="Uganda"/>
+                                <StringItem index="188" value="Uruguay"/>
+                                <StringItem index="189" value="Uzbekistan"/>
+                                <StringItem index="190" value="Vanuatu"/>
+                                <StringItem index="191" value="Venezuela"/>
+                                <StringItem index="192" value="Viet Nam"/>
+                                <StringItem index="193" value="Yemen"/>
+                                <StringItem index="194" value="Zambia"/>
+                                <StringItem index="195" value="Zimbabwe"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel33">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Numero Asset"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtNumeroAsset1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="500"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel34">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Peso Equipo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtPesoEquipo1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="50"/>
+                            <Property name="toolTipText" type="java.lang.String" value="Ingresar peso en KG"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel35">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Estatus"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbEstatus1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Activo"/>
+                                <StringItem index="1" value="Inactivo"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel36">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Calibracion en Planta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbCalibracionPlanta1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Si"/>
+                                <StringItem index="1" value="No"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel37">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Edificio / Planta"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbEdificio1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="3">
+                                <StringItem index="0" value="Alliance Juarez"/>
+                                <StringItem index="1" value="EPL"/>
+                                <StringItem index="2" value="Alliance Canada"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel38">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Comentarios"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtComentarios1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Usar alcohol isopropilico"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel39">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Requiere Calibracion 17025"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbCalibracion17026">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="2">
+                                <StringItem index="0" value="Si"/>
+                                <StringItem index="1" value="No"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtMc1">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="1"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMaterialButtonRectangle" name="rSMaterialButtonRectangle2">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="99" red="33" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Guardar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rSMaterialButtonRectangle2ActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel42">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="ID"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txtID1">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="100"/>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                                <LineBorder thickness="2">
+                                  <Color PropertyName="color" blue="c0" green="70" red="0" type="rgb"/>
+                                </LineBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMaterialButtonRectangle" name="rSMaterialButtonRectangle6">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="99" red="33" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Limpiar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rSMaterialButtonRectangle6ActionPerformed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel2">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder justification="2" title="Busqueda">
+                              <Font PropertyName="font" name="Tahoma" size="18" style="1"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jcbParametro" max="32767" attributes="0"/>
+                                              <Component id="jLabel40" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtParametro" max="32767" attributes="0"/>
+                                              <Component id="jLabel41" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="rSMaterialButtonRectangle3" min="-2" pref="97" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="rSMaterialButtonRectangle4" min="-2" pref="97" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="rSMaterialButtonRectangle5" min="-2" pref="133" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jcbParametro" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <Component id="txtParametro" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rSMaterialButtonRectangle3" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                                      <Component id="rSMaterialButtonRectangle4" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                                      <Component id="rSMaterialButtonRectangle5" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" min="-2" pref="176" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel40">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Buscar Por:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSComboMetro" name="jcbParametro">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="13">
+                                <StringItem index="0" value="MC"/>
+                                <StringItem index="1" value="Descripcion"/>
+                                <StringItem index="2" value="Manufactura"/>
+                                <StringItem index="3" value="Modelo"/>
+                                <StringItem index="4" value="Numero de Serie"/>
+                                <StringItem index="5" value="Fecha Alta"/>
+                                <StringItem index="6" value="PO de Compra"/>
+                                <StringItem index="7" value="Numero de Pedimento"/>
+                                <StringItem index="8" value="Pais Origen"/>
+                                <StringItem index="9" value="Numero Asset"/>
+                                <StringItem index="10" value="Estatus"/>
+                                <StringItem index="11" value="Edificio"/>
+                                <StringItem index="12" value="Calibracion 17025"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="colorFondo" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel41">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" value="Introduzca Parametro"/>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMetroTextPlaceHolder" name="txtParametro">
+                          <Properties>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="0" green="0" red="0" type="rgb"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="rojerusan.RSMaterialButtonRectangle" name="rSMaterialButtonRectangle3">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Buscar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rSMaterialButtonRectangle3ActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="rojerusan.RSMaterialButtonRectangle" name="rSMaterialButtonRectangle4">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="To Excel"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rSMaterialButtonRectangle4ActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="rojerusan.RSMaterialButtonRectangle" name="rSMaterialButtonRectangle5">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Mostrar Todo"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rSMaterialButtonRectangle5ActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTable" name="tblRegistros1">
+                              <Properties>
+                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                  <Table columnCount="20" rowCount="4">
+                                    <Column editable="true" title="ID" type="java.lang.Object"/>
+                                    <Column editable="true" title="MC" type="java.lang.Object"/>
+                                    <Column editable="true" title="Descripcion" type="java.lang.Object"/>
+                                    <Column editable="true" title="Manufactura" type="java.lang.Object"/>
+                                    <Column editable="true" title="Modelo" type="java.lang.Object"/>
+                                    <Column editable="true" title="Serie" type="java.lang.Object"/>
+                                    <Column editable="true" title="Fecha Alta" type="java.lang.Object"/>
+                                    <Column editable="true" title="Mantenimiento" type="java.lang.Object"/>
+                                    <Column editable="true" title="Costo Equipo" type="java.lang.Object"/>
+                                    <Column editable="true" title="PO Compra" type="java.lang.Object"/>
+                                    <Column editable="true" title="Numero Pedimento" type="java.lang.Object"/>
+                                    <Column editable="true" title="Fecha Cruce" type="java.lang.Object"/>
+                                    <Column editable="true" title="Pais Origen" type="java.lang.Object"/>
+                                    <Column editable="true" title="Asset" type="java.lang.Object"/>
+                                    <Column editable="true" title="Peso" type="java.lang.Object"/>
+                                    <Column editable="true" title="Estatus" type="java.lang.Object"/>
+                                    <Column editable="true" title="Calibracion Planta" type="java.lang.Object"/>
+                                    <Column editable="true" title="Planta" type="java.lang.Object"/>
+                                    <Column editable="true" title="Comentarios" type="java.lang.Object"/>
+                                    <Column editable="true" title="Calibracion 17025" type="java.lang.Object"/>
+                                  </Table>
+                                </Property>
+                                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                                  <TableColumnModel selectionModel="0">
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                  </TableColumnModel>
+                                </Property>
+                                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="PnlGrad.KGradientPanel" name="kGradientPanel3">
+          <Properties>
+            <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+            <Property name="kGradientFocus" type="int" value="300"/>
+            <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Locaciones">
+                <Property name="tabTitle" type="java.lang.String" value="Locaciones"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="988" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="705" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Container class="PnlGrad.KGradientPanel" name="kGradientPanel4">
+          <Properties>
+            <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+            <Property name="kGradientFocus" type="int" value="300"/>
+            <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Registro de Mantenimientos">
+                <Property name="tabTitle" type="java.lang.String" value="Registro de Mantenimientos"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="988" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="705" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Container class="PnlGrad.KGradientPanel" name="kGradientPanel5">
+          <Properties>
+            <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+            <Property name="kGradientFocus" type="int" value="300"/>
+            <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Busqueda">
+                <Property name="tabTitle" type="java.lang.String" value="Busqueda"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="988" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="705" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Container class="PnlGrad.KGradientPanel" name="kGradientPanel6">
+          <Properties>
+            <Property name="kEndColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+            <Property name="kGradientFocus" type="int" value="300"/>
+            <Property name="kStartColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Reportes">
+                <Property name="tabTitle" type="java.lang.String" value="Reportes"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="988" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="705" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jPanel1MouseDragged"/>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel1MousePressed"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="307" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="BtnMinimizar" min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  <Component id="BtnMaximizar" min="-2" pref="30" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  <Component id="BtnCerrar" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabel3" alignment="0" max="32767" attributes="0"/>
+              <Component id="BtnCerrar" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="BtnMinimizar" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="BtnMaximizar" alignment="0" min="-2" pref="33" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="BtnCerrar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Principal/Recursos/Iconos/Cerrar.png"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BtnCerrarMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="BtnMaximizar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Principal/Recursos/Iconos/Maximizar.png"/>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BtnMaximizarMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="BtnMinimizar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Principal/Recursos/Iconos/Minimizar.png"/>
+            </Property>
+            <Property name="verticalAlignment" type="int" value="3"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BtnMinimizarMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Semibold" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="LeCaSys"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
