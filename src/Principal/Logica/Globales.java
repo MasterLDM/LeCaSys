@@ -26,7 +26,7 @@ public class Globales {
     public static String RUTA_PRUEBA = "C:\\Users\\axel-\\OneDrive\\Documentos\\NetBeansProjects\\2\\Alliance\\src\\Principal\\Vista\\0080102723_20210512.xml";
     
 
-    
+    public static String test="";
     //public static String rutaBD ="C:\\Users\\axel-\\OneDrive\\Escritorio\\LabelBD\\bd Usar.txt";
     //public static String rutaColaImpresion="C:\\Users\\axel-\\OneDrive\\Escritorio\\LabelBD\\co la.txt";
     //public static String rutaBDNuevo ="C:\\Users\\axel-\\OneDrive\\Escritorio\\LabelBD\\5G-746 Discrete Product Labels DB.txt";
